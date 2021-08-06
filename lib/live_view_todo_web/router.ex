@@ -17,7 +17,7 @@ defmodule LiveViewTodoWeb.Router do
   scope "/", LiveViewTodoWeb do
     pipe_through :browser
 
-    live "/", TodoLive, :index
+    live "/", PageLive, :index
   end
 
   # Other scopes may use custom stacks.
